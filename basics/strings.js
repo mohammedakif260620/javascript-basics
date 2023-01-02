@@ -1,6 +1,8 @@
 "Hello World"
 ‘Hello World’
 `Hello World`
+
+STING INTERPOLATION (ADDING WITH DOLLAR SIGN$ AND {FLOWER BRAKETS})
 ' 5 plus 5 is ${5+5}'  wrong
 "5 plus 5 is ${5+5}"  wrong
 BACKTICS:> 
