@@ -21,3 +21,6 @@ o\p:
 "Name:Akif
 city:guntur"
 
+ESCAPE CHARACTER:
+"I am from \"guntur\"       -->(ex)input
+'I am from "guntur" '    (output)
