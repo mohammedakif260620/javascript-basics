@@ -35,5 +35,5 @@ ADDITION with STRINGS
 '44'
 
 '5' - 'AKIF'
-NaN  // NaN-> not a number
+NaN  // NaN-> not a number.
 

@@ -11,4 +11,4 @@ false
 >  typeof (10>12)
 'boolean'
 >  typeof true
-'boolean'
+'boolean' all are type of
