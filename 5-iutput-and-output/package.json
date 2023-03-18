@@ -1,0 +1,14 @@
+{
+  "name": "5-iutput-and-output",
+  "version": "2.0.1",
+  "description": "simple i/o program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed akif",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

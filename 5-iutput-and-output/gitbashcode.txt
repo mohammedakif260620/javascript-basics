@@ -1,0 +1,86 @@
+cd 5-iutput-and-output/
+
+Asif@DESKTOP-9GS1HK7 MINGW64 /c/Trainings/JavaScript-training/5-iutput-and-output (master)
+$ node
+Welcome to Node.js v16.16.0.
+Type ".help" for more information.
+> node-v
+Uncaught ReferenceError: node is not defined
+> node -v
+Uncaught ReferenceError: node is not defined
+> .exit
+
+Asif@DESKTOP-9GS1HK7 MINGW64 /c/Trainings/JavaScript-training/5-iutput-and-output (master)
+$ noe -v
+bash: noe: command not found
+
+Asif@DESKTOP-9GS1HK7 MINGW64 /c/Trainings/JavaScript-training/5-iutput-and-output (master)
+$ node-v
+bash: node-v: command not found
+
+Asif@DESKTOP-9GS1HK7 MINGW64 /c/Trainings/JavaScript-training/5-iutput-and-output (master)
+$ node
+Welcome to Node.js v16.16.0.
+Type ".help" for more information.
+> npm init
+npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> .exit
+
+Asif@DESKTOP-9GS1HK7 MINGW64 /c/Trainings/JavaScript-training/5-iutput-and-output (master)
+$ npm init
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (5-iutput-and-output)
+version: (1.0.0) 2.0.1
+description: simple i/o program
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Mohammed akif
+license: (ISC)  
+Sorry, license should be a valid SPDX license expression (without "LicenseRef"), "UNLICENSED", or "SEE LICENSE IN <filename>".
+license: (ISC)
+About to write to C:\Trainings\JavaScript-training\5-iutput-and-output\package.json:
+
+{
+  "name": "5-iutput-and-output",
+  "version": "2.0.1",
+  "description": "simple i/o program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed akif",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+Asif@DESKTOP-9GS1HK7 MINGW64 /c/Trainings/JavaScript-training/5-iutput-and-output (master)
+$
+
+
+
+$ npm install readline-sync
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+added 1 package, and audited 2 packages in 2s
+
+found 0 vulnerabilities
+
+
+// program
+$ node index.js 
+welcome to input and output program
