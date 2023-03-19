@@ -19,18 +19,9 @@ console.log(` ${tableNumber}  * 10 =${tableNumber * 10}`);
 console.log("************************************");
 
 
-// for run node table.js
-//Footer
-//© 2023 GitHub, Inc.
-//Footer navigation
-//Terms
-//Privacy
-//Security
-//Status
 
 
-
-// output written below
+// output written below of git bash
 // $ node table.js 
 Table generator
 Enter number to generator table:8

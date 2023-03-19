@@ -70,4 +70,4 @@ EMAIL: 4
 user details
 {
   basics: { name: 'Mohammed', label: '4', phone: '4', url: '', email: '4' }
-}
+}*/
