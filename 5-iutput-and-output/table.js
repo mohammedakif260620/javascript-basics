@@ -23,7 +23,8 @@ console.log("************************************");
 
 // output written below of git bash
 // $ node table.js 
-Table generator
+
+/*Table generator
 Enter number to generator table:8
 ***********************************
  8 * 1 = 8
@@ -36,5 +37,4 @@ Enter number to generator table:8
  8  * 8 =64
  8  * 9 =72
  8  * 10 =80
-************************************
-
+*************************************/
