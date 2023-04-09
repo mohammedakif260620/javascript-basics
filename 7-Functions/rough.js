@@ -1,4 +1,33 @@
-let add = function (xValue, yValue){
+
+//----------------------------------------------------------------------------
+/*
+function multiply(a, b)  {
+  var total = a*b
+  return total;
+}
+var multiplication = multiply(6,6);
+console.log(`multiplictn of 5 & 5 is ${multiplication}`);
+*/
+//-----------------------------------------------
+/*
+function multiply(a, b)  {
+  return a*b;
+}
+
+
+const twomultiply = multiply(5, 5);
+
+console.log(`multipliction of 5 & 5 is ${twomultiply}`);
+*/
+//--------------------------------------------------------------------------------
+/*const multiply = (a, b)=>{
+  return a*b;
+}
+const twomultiply = multiply(5, 5);
+console.log(`multipliction of 5 & 5 is ${twomultiply}`);
+*/
+//-------------------------------------------------------------------------------
+/*let add = function (xValue, yValue){
   return xValue + yValue;
 }
 add(22, 42);
@@ -6,7 +35,8 @@ add(22, 42);
 let additionofnmbers = add(20, 20);
 
 console.log(additionofnmbers);
-// -------------------------------------------------------
+*/
+// ------------------------------------------------------------------------------
 /*function math(username){
   console.log(`hello${username}`);
 
