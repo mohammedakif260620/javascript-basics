@@ -12,3 +12,16 @@ true
 false
 > 689>100
 true
+
+singl equals dosent work .!
+> 68=68
+68=68
+^^
+
+Uncaught SyntaxError: Invalid left-hand side in assignment
+
+mohammed == mohammed
+Uncaught ReferenceError: mohammed is not defined
+
+"mohammed" == "mohammed"
+true

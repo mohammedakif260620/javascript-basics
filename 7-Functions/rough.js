@@ -1,3 +1,26 @@
+import chalk from "chalk"; 
+
+console.log(chalk.bgRed("MOHAMMED"));
+
+/*
+-----------------------------------------------------------------------
+            // name         parameters (total 4) 
+function createUserDetails(userFirstName, lastName, companyName, cityName) {
+  const user = {
+    firstname: userFirstName,
+    lastName: lastName,
+    company: companyName,
+    city: cityName
+  }
+
+  return user;
+}
+
+const newUser = createUserDetails('Syed', "Hussain", 'SAP Labs', 'Hyderabad'); // it will return an user object (value)
+console.log(newUser);
+
+*/
+
 
 //----------------------------------------------------------------------------
 /*

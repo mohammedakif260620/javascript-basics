@@ -39,8 +39,8 @@ function createUserDetails(userFirstName, lastName, companyName, cityName) {
   return user;
 }
 
-const salary = 10000;
-const hike = salary + 5000; // 15000
+
 
 const newUser = createUserDetails('Syed', "Hussain", 'SAP Labs', 'Hyderabad'); // it will return an user object (value)
 console.log(newUser);
+

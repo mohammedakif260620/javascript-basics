@@ -2,12 +2,15 @@
 ‘Hello World’
 `Hello World`
 
-STING INTERPOLATION (ADDING WITH DOLLAR SIGN$ AND {FLOWER BRAKETS})
+STING INTERPOLATION method (ADDING WITH DOLLAR SIGN$ AND {FLOWER BRAKETS})
 ' 5 plus 5 is ${5+5}'  wrong
-"5 plus 5 is ${5+5}"  wrong
+"5 plus 5 is ${5+5}"  wrong : single and double ticks dosent work
 BACKTICS:> 
   `5 plus 5 is ${5+5}`  (TRUE WAY )
   OUTPUT= '5 plus 5 is 10'
+
+  `${456*478}` only back tics gives an output 
+  '217968'
 
 writting multiple lines : with back tics(shift enter to shift for next line)
 `
@@ -24,5 +27,5 @@ o\p:
 city:guntur"
 
 ESCAPE CHARACTER:
-"I am from \"guntur\"       -->(ex)input
+"I am from \"guntur\"  "     -->(ex)input
 'I am from "guntur" '    (output)
