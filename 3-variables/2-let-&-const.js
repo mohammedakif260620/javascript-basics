@@ -11,14 +11,19 @@ var myName = "Syed";
 // var redeclaration with same variable identifier
 var myName = "Syed Zakeer";
 
+myName = "syed zakeer";// myName has been update by writting/declaring twice >var.<//but LET its diff.
 
 // let declaration with value
 let myHomeTown = "Guntur";
+let myHomeTown = "ongole"; // Javascript will throw error
+//if need to change:without writting >let < just say >// ;
+myHomeTown = "ongole";//this will change the value of let .
+
 
 // we can't redeclare let variable again
 // let myHomeTown = "ongole"; // Javascript will throw error
 
-// But we can reassign new value to var or let
+// But we can reassign new value to let or var also ..
 myName = "Syed Zakeer Hussain"
 myHomeTown = "Hyderabad"
 

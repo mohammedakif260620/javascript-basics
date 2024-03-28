@@ -19,6 +19,37 @@ const myDetails = {
 
 console.log(myDetails);
 
+//***************************2nd example-shown below*****************************************/ */
+var intial = "Syed";
+let firstName = "Zakeer";
+let lastName = "Hussain";
+
+const city = "Guntur";
+
+const gender = "male";
+ const district = "shivamogga";
+const adress = "BDVT Inadra nagar";
+
+const friends = [
+  'Harish',
+  'Harsha',
+  'Mani'
+];
+
+const myDetails = {
+  fullname: `${firstName} ${lastName}, ${intial}`,
+  designation: 'Frontend Dev',
+  friends: friends,
+  city: city,
+  sex: gender,
+  adress :`${adress} ${district}` // backticks used
+}
+
+console.log(myDetails);
+
+
+//--*************************--********************--*********************-----
+
 // Javascript Runtime Environment
 // 1. Browser
 // 2. Node

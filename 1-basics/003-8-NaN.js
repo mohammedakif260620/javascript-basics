@@ -9,3 +9,9 @@ Number.isNaN(56 * 99); // false
 Number.isNaN("Syed"); // false
 Number.isNaN(true); // false
 Number.isNaN(NaN); // true
+> Number.isNaN(1*'akif')
+true
+Number.isNaN('akif')
+false
+Number.isNaN(1*'akif'+2-3)
+true1===
