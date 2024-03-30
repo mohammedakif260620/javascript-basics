@@ -1,15 +1,16 @@
+const readline = require('readline-sync');
 
-
-const readline = require("readline-sync");
-
-console.log("*****its sum od add*****");
+console.log(" *****its sum of add**** ");
 
 const a = +readline.question("please enter 1st value:  ");
 const b = Number(readline.question("please enter 2nd value:  "));
-// do go through her once above : adding (+) sign in const a & adding (Number) in const bis for making the output value of string to NUMBER(INTEGRER)
-console.log(`Value of ${a} is ${typeof a}`);
-console.log(`Value of ${b} is ${typeof b}`);
-const sum = a+b;
+
+// do go through her once above : adding +()plus  sign in const a & adding :> Number(value)  in const b is for making the input value of string to NUMBER(INTEGRER) so that outpt value can be added instead of concatination
+
+console.log(`Value of ${a} is ${typeof a}`);// this is written just to know inputs is in string or integr
+console.log(`Value of ${b} is ${typeof b}`);// this is written just to know inputs is in string or integr
+
+const sum = (a+b);
 
 console.log(`sum of ${a} + ${b} = ${sum}`);
 
@@ -45,3 +46,21 @@ Value of NaN is number
 Value of NaN is number
 sum of NaN + NaN = NaN
 */
+ // for below answer to appear comment any one bcoz one time only one can be executed 
+//:>in program below line also comes (readline-sync), but for for full execution its removed/commented.
+
+
+//const readline = require('readline-sync');
+
+console.log("what is your age ? ");
+
+const age = readline.question('enter your age: ');
+
+console.log(`You are ${age} years old`);
+
+console.log(`In 10 years you will be ${+age + +10} years old`);
+console.log(`In 20 years you will be ${+age + +20} years old`);
+console.log(`In 30 years you will be ${+age + +30} years old`);
+console.log(`In 40 years you will be ${+age + +40} years old`);
+console.log(`In 50 years you will be ${+age + +50} years old`);
+

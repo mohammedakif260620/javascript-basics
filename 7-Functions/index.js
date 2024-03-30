@@ -8,7 +8,7 @@ console.log(chalk.green.bgRed("JS-Functions"));
 console.log(chalk.green.bgYellow("JS-Functions"));
 console.log(chalk.red.bgWhite("JS-Functions"));
 
-
+// ES5 || ES6 > "type": "module" < THIS IS ADDED MANUALLY IN PACKAGE.JSON (15th-line) bcoz we r using:> import chalk : of  ES6 version of library in it but working in ES5.
 
 /*output 
 hi there
@@ -19,10 +19,10 @@ JS-Functions   red.bgWhite("JS-Functions"));
 
 to execute remove this commented part and type in git bash: node index.js = enter
 */
+// below shown 25 and 26 line when want to run below program only should un-comment and run : but NOW it has been commented bcoz already >import < is mentioned in line no one so it will not execute if mentioned in between also bcoz here we r trying to execute all whole page at once soo .
 
-
-const chalk = require("chalk");
-import chalk from 'chalk'; //es6
+//const chalk = require("chalk");
+//import chalk from 'chalk'; //es6
 
 console.log("Hi");
 console.log("Hey!");
